@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+.dow{
+  justify-content: space-around;
+  height: 140px;
+  border-radius: 20px;
+  color: #fff;
+}
+.d{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.f{
+    border-radius: 20px;
+    height: 360px;
+    margin-left: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+}
+.image{
+    height: 300px;
+    width: 500px;
+}
+
+.carousel-control-prev {
+    margin-left: -50px;
+}
+
+.carousel-control-next {
+ margin-right: -50px;
+}
+.l{
+    background-color:#19a9d5;
+}
+body {
+    overflow-x: hidden;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: #fe886e;
+    padding-top: 20px;
+    color: white;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+}
+
+.t{
+    background-color: #f75599;
+}
+.pr{
+    background-color: #e4505f;
+}
+.GradientBorder {
+    position: relative;
+    padding: 30px 0;
+    color: #fff;
+    background: #000;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 980px;
+    margin-left:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.GradientBorder::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #e9557a, #8012bc);
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.GradientBorder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #e9557a, #8012bc);
+    z-index: -1;
+    filter: blur(15px);
+}
+h5{
+    background-color:#fff;
+    color:#000;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
